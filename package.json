@@ -25,23 +25,20 @@
     "test": "mocha node-tests/**/*-test.js --recursive"
   },
   "dependencies": {
-    "broccoli-concat-analyser": "^4.3.4",
     "debug": "^3.1.0",
-    "ember-cli-babel": "^7.7.3",
-    "ember-cli-version-checker": "^2.1.2",
-    "hash-files": "^1.1.1",
+    "fast-glob": "^2.2.7",
     "intercept-stdout": "^0.1.2",
     "node-html-light": "^1.0.0",
-    "sane": "^3.0.0",
-    "tmp": "^0.0.33",
-    "touch": "^3.1.0"
+    "source-map-explorer": "^2.0.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.7.0",
     "chai": "^4.1.2",
     "chai-http": "^4.2.0",
+    "ember-auto-import": "^1.4.0",
     "ember-cli": "~3.10.1",
     "ember-cli-addon-tests": "^0.11.0",
+    "ember-cli-babel": "^7.7.3",
     "ember-cli-dependency-checker": "^3.1.0",
     "ember-cli-htmlbars": "^3.0.1",
     "ember-cli-htmlbars-inline-precompile": "^2.1.0",
@@ -60,6 +57,7 @@
     "eslint-plugin-mocha": "^5.2.0",
     "eslint-plugin-node": "^9.0.1",
     "loader.js": "^4.7.0",
+    "lodash-es": "^4.17.11",
     "mocha": "^5.2.0"
   },
   "engines": {
